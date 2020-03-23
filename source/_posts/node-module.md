@@ -3,9 +3,9 @@ title: Node.js modules (CommonJS modules)
 date: 2020-03-22 15:34:33
 tags:
 ---
-Javascript has been around for a while and, up until 2015, there were no official ways to deal with code separated in multiple files (modules). Indeed, [ECMAScript 2015](https://en.wikipedia.org/wiki/ECMAScript) (initially known as ES6) contains the first specification from the "ECMAScript Harmony" project which introduce modules, classes, etc.  Sadly, Node.js is not quite ready for the implementation of ECMAScript 2015 modules. In version current version (13.11.0), it's offered as "Stability: 1 - Experimental". Because this state of affairs, multiple libraries and frameworks tried over the years to remediate this issue (CommonJS, ADM, UMD, RequireJS, etc).
+Javascript has been around for a while and, up until 2015, there were no official ways to deal with code separated in multiple files (modules). Indeed, [ES2015 (ECMAScript 2015)](https://en.wikipedia.org/wiki/ECMAScript) (initially known as ES6) contains the first specification from the "ECMAScript Harmony" project which introduce modules, classes, etc.  Sadly, Node.js is not quite ready for the implementation of ECMAScript 2015 modules. In version current version (13.11.0), it's offered as "Stability: 1 - Experimental". Because of this state of affairs, multiple libraries and frameworks (CommonJS, ADM, UMD, RequireJS, etc) have tried over the years to remediate this shortcoming.
 
-NodeJS is currently using __CommonJS__.
+NodeJS has been using and is currently using __CommonJS__ (at least until it is fully supporting the ES2015 Modules).
 
 Here are some examples:
 
