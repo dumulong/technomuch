@@ -135,7 +135,7 @@ const { minus } = require('./minus')
 //...
 ```
 
-Ad the definition in __minus.js__ :
+And the definition in __minus.js__ :
 
 ``` javascript
 //minus.js
