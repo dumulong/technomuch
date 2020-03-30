@@ -1,8 +1,14 @@
 ---
+layout: _drafts
 title: Mutiple webapps on AWS Node.js
-tags: [ Node.js, Amazon Web Services (AWS)]
-categories: [Node.js]
+tags:
+  - Node.js
+  - Amazon Web Services (AWS)
+categories:
+  - Node.js
+date: 2020-03-30 10:58:33
 ---
+
 
 In this post, I will show you how to host multiple Node.js web applications on the same __AWS Ligthsail Node.JS__ instance.
 
