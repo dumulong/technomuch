@@ -44,8 +44,8 @@
 $logo-text
   text-decoration: none
   color: #fff
-  font-weight: 300
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3)
+  font-weight: bold
+  text-shadow: glow-shadow
 
 #logo
   @extend $logo-text
@@ -69,9 +69,10 @@ $logo-text
 $nav-link
   float: left
   color: #fff
-  opacity: 0.6
   text-decoration: none
-  text-shadow: 0 1px rgba(0, 0, 0, 0.2)
+  font-weight: bold
+  font-size: nav-size
+  text-shadow: glow-shadow
   transition: opacity 0.2s
   display: block
   padding: 20px 15px
@@ -82,16 +83,15 @@ $nav-link
   @extend $nav-link
   font-family: font-icon
   text-align: center
-  font-size: font-size
-  width: font-size
-  height: font-size
+  width: nav-size
+  height: nav-size
   padding: 20px 15px
   position: relative
   cursor: pointer
 
+
 .main-nav-link
   @extend $nav-link
-  font-weight: 300
   letter-spacing: 1px
   @media mq-mobile
     display: none
