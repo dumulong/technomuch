@@ -5,6 +5,9 @@ tags: [ Concept ]
 categories: [ General Coding ]
 ---
 
+The SOLID principles are a set of software design principles that teach us how we can structure our functions and classes in order to be as robust, maintainable and flexible as possible.
+
+
 ## S - Single-responsiblity principle
 
 A class should have one and only one reason to change, meaning that a class should have only one job.
