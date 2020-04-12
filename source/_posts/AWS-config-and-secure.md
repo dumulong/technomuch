@@ -2,7 +2,7 @@
 layout: posts
 title: AWS Virtual Private Server (VPS)
 date: 2020-03-30 07:37:04
-tags: [Amazon Web Services (AWS) ]
+tags: [Amazon Web Services (AWS)]
 categories: [Amazon Web Services (AWS)]
 ---
 

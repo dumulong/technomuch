@@ -1,9 +1,12 @@
 ---
 title: Design Pattern
+tags:
+  - Concept
+categories:
+  - General Coding
 date: 2020-03-30 14:08:13
-tags: [ Concept ]
-categories: [ General Coding ]
 ---
+
 
 ## Behavioral Patterns
 

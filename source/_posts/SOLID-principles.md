@@ -1,9 +1,12 @@
 ---
 title: SOLID Principles
+tags:
+  - Concept
+categories:
+  - General Coding
 date: 2020-03-30 14:35:07
-tags: [ Concept ]
-categories: [ General Coding ]
 ---
+
 
 The SOLID principles are a set of software design principles that teach us how we can structure our functions and classes in order to be as robust, maintainable and flexible as possible.
 
