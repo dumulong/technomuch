@@ -125,6 +125,32 @@ sudo nano /home/technomuch/.ssh/authorized_keys
 
 _Use the console to reboot_
 
+
+## PS: Public key file format
+
+The values in the __xxx.pub__ file should be on one line and look like this:
+
+``` shell
+ssh-rsa AAAAB3<...very long  string...>Tx5I55KMQ== rsa-key-20200820
+```
+
+But, if you have generated the key using another tool like __PuTTYgen__, you may get a key looking like this:
+
+``` shell
+---- BEGIN SSH2 PUBLIC KEY ----
+Comment: "rsa-key-20200820"
+AAAAB3NzaC1yc2EAAAABJQAAAQEAki9hkBcpDBoS+7B/GdaLMP+Clu4ywfZgZi80
+... more lines ...
++Qy3XKjwPD9AtNOD+vIayR5/T4OSF1ooEzcMarcS8xu3gTEoykH55f8IFZU0TyHU
+EEQsiSsbNeV7uW44YAUmX+AWM+IODGF2YirISHGe8Tx5I55KMQ==
+---- END SSH2 PUBLIC KEY ----
+```
+
+If so you can always reformat it like this ```ssh-rsa <SSH Public key> <comment>``` all in one line.
+
+Or, better yet, reopen the private key with __PuTTYgen__ by clicking "Load" and selecting the file.  You should then see the public key in the text field titled "Public key for pasting into OpenSSH authorized_keys file" (quite descriptive...).
+
+
 ## Alternative
 
 You could have created the authorized_keys file and the .ssh folder with the technomuch's account directly.
