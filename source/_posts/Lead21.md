@@ -8,6 +8,7 @@ categories:
 date: 2021-05-04 10:58:33
 ---
 
+
 This is a list of things that I've learned over the years.  Nothing is really important (except for good sole with good grip). I follow these ideas to make my trip a bit nicer but, in the end, please do what you want and enjoy the scenery. We will find a way to have a blast!
 
 
