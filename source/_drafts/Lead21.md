@@ -52,7 +52,7 @@ Big enough to fit beanie, gloves, mid layer, outer layer, food and water. I have
 # Other things (optional):
 Sun tan lotion
 Sunglasses
-Tylenols
+Tylenol
 Athletic tape/gauze
 Salt/electrolyte
 Pocket knife
