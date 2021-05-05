@@ -1,6 +1,6 @@
 ---
 layout: _drafts
-title: Mutiple webapps on AWS Node.js
+title: Multiple webapps on AWS Node.js
 tags:
   - Node.js
   - Amazon Web Services (AWS)
